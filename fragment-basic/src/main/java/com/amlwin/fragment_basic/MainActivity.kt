@@ -13,8 +13,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val bundle = Bundle()
+        bundle.putString(MainFragment.tag, getString(R.string.title_main_fragment))
+
         supportFragmentManager.commit {
-            replace(R.id.frag_container, MainFragment::class.java, null, MainFragment.tag)
+            replace(R.id.frag_container, MainFragment::class.java, bundle, MainFragment.tag)
         }
     }
 }

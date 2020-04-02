@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">fragment-basic</string>
+    <string name="title_main_fragment">MainFragment</string>
 </resources>

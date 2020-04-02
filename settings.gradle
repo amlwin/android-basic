@@ -1,3 +1,4 @@
 include ':app', ':retrofit-basic'
 rootProject.name='android-basic'
 include ':vm-basic'
+include ':fragment-basic'
